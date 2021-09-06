@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "9_9_7设计模式之观察者模式/1.0.0": {
+        "runtime": {
+          "9_9_7设计模式之观察者模式.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "9_9_7设计模式之观察者模式/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>CSharp拓展方法_跟java的装饰类有点像_</RootNamespace>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CSharp核心Object常用方法/1.0.0": {
+        "runtime": {
+          "CSharp核心Object常用方法.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharp核心Object常用方法/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

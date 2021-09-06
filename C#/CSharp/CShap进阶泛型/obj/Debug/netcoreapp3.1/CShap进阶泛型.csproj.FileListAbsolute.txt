@@ -1,0 +1,13 @@
+E:\CSharp\CShap进阶泛型\bin\Debug\netcoreapp3.1\CShap进阶泛型.exe
+E:\CSharp\CShap进阶泛型\bin\Debug\netcoreapp3.1\CShap进阶泛型.deps.json
+E:\CSharp\CShap进阶泛型\bin\Debug\netcoreapp3.1\CShap进阶泛型.runtimeconfig.json
+E:\CSharp\CShap进阶泛型\bin\Debug\netcoreapp3.1\CShap进阶泛型.runtimeconfig.dev.json
+E:\CSharp\CShap进阶泛型\bin\Debug\netcoreapp3.1\CShap进阶泛型.dll
+E:\CSharp\CShap进阶泛型\bin\Debug\netcoreapp3.1\CShap进阶泛型.pdb
+E:\CSharp\CShap进阶泛型\obj\Debug\netcoreapp3.1\CShap进阶泛型.csprojAssemblyReference.cache
+E:\CSharp\CShap进阶泛型\obj\Debug\netcoreapp3.1\CShap进阶泛型.AssemblyInfoInputs.cache
+E:\CSharp\CShap进阶泛型\obj\Debug\netcoreapp3.1\CShap进阶泛型.AssemblyInfo.cs
+E:\CSharp\CShap进阶泛型\obj\Debug\netcoreapp3.1\CShap进阶泛型.csproj.CoreCompileInputs.cache
+E:\CSharp\CShap进阶泛型\obj\Debug\netcoreapp3.1\CShap进阶泛型.dll
+E:\CSharp\CShap进阶泛型\obj\Debug\netcoreapp3.1\CShap进阶泛型.pdb
+E:\CSharp\CShap进阶泛型\obj\Debug\netcoreapp3.1\CShap进阶泛型.genruntimeconfig.cache

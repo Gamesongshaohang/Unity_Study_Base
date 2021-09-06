@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CSharp入门\**" />
+    <EmbeddedResource Remove="CSharp入门\**" />
+    <None Remove="CSharp入门\**" />
+  </ItemGroup>
+
+</Project>

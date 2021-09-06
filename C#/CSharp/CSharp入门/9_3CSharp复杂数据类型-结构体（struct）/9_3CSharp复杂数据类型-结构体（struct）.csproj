@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_9_3CSharp复杂数据类型_结构体_struct_</RootNamespace>
+  </PropertyGroup>
+
+</Project>

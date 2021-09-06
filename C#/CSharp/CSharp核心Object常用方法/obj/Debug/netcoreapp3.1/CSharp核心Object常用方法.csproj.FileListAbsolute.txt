@@ -1,0 +1,12 @@
+E:\CSharp\CSharp核心Object常用方法\bin\Debug\netcoreapp3.1\CSharp核心Object常用方法.exe
+E:\CSharp\CSharp核心Object常用方法\bin\Debug\netcoreapp3.1\CSharp核心Object常用方法.deps.json
+E:\CSharp\CSharp核心Object常用方法\bin\Debug\netcoreapp3.1\CSharp核心Object常用方法.runtimeconfig.json
+E:\CSharp\CSharp核心Object常用方法\bin\Debug\netcoreapp3.1\CSharp核心Object常用方法.runtimeconfig.dev.json
+E:\CSharp\CSharp核心Object常用方法\bin\Debug\netcoreapp3.1\CSharp核心Object常用方法.dll
+E:\CSharp\CSharp核心Object常用方法\bin\Debug\netcoreapp3.1\CSharp核心Object常用方法.pdb
+E:\CSharp\CSharp核心Object常用方法\obj\Debug\netcoreapp3.1\CSharp核心Object常用方法.AssemblyInfoInputs.cache
+E:\CSharp\CSharp核心Object常用方法\obj\Debug\netcoreapp3.1\CSharp核心Object常用方法.AssemblyInfo.cs
+E:\CSharp\CSharp核心Object常用方法\obj\Debug\netcoreapp3.1\CSharp核心Object常用方法.csproj.CoreCompileInputs.cache
+E:\CSharp\CSharp核心Object常用方法\obj\Debug\netcoreapp3.1\CSharp核心Object常用方法.dll
+E:\CSharp\CSharp核心Object常用方法\obj\Debug\netcoreapp3.1\CSharp核心Object常用方法.pdb
+E:\CSharp\CSharp核心Object常用方法\obj\Debug\netcoreapp3.1\CSharp核心Object常用方法.genruntimeconfig.cache

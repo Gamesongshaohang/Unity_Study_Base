@@ -1,0 +1,13 @@
+E:\CSharp\ConsoleApp核心\bin\Debug\netcoreapp3.1\ConsoleApp核心.exe
+E:\CSharp\ConsoleApp核心\bin\Debug\netcoreapp3.1\ConsoleApp核心.deps.json
+E:\CSharp\ConsoleApp核心\bin\Debug\netcoreapp3.1\ConsoleApp核心.runtimeconfig.json
+E:\CSharp\ConsoleApp核心\bin\Debug\netcoreapp3.1\ConsoleApp核心.runtimeconfig.dev.json
+E:\CSharp\ConsoleApp核心\bin\Debug\netcoreapp3.1\ConsoleApp核心.dll
+E:\CSharp\ConsoleApp核心\bin\Debug\netcoreapp3.1\ConsoleApp核心.pdb
+E:\CSharp\ConsoleApp核心\obj\Debug\netcoreapp3.1\ConsoleApp核心.csprojAssemblyReference.cache
+E:\CSharp\ConsoleApp核心\obj\Debug\netcoreapp3.1\ConsoleApp核心.AssemblyInfoInputs.cache
+E:\CSharp\ConsoleApp核心\obj\Debug\netcoreapp3.1\ConsoleApp核心.AssemblyInfo.cs
+E:\CSharp\ConsoleApp核心\obj\Debug\netcoreapp3.1\ConsoleApp核心.csproj.CoreCompileInputs.cache
+E:\CSharp\ConsoleApp核心\obj\Debug\netcoreapp3.1\ConsoleApp核心.dll
+E:\CSharp\ConsoleApp核心\obj\Debug\netcoreapp3.1\ConsoleApp核心.pdb
+E:\CSharp\ConsoleApp核心\obj\Debug\netcoreapp3.1\ConsoleApp核心.genruntimeconfig.cache

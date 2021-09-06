@@ -1,0 +1,13 @@
+E:\CSharp\CSharp核心vob\bin\Debug\netcoreapp3.1\CSharp核心vob.exe
+E:\CSharp\CSharp核心vob\bin\Debug\netcoreapp3.1\CSharp核心vob.deps.json
+E:\CSharp\CSharp核心vob\bin\Debug\netcoreapp3.1\CSharp核心vob.runtimeconfig.json
+E:\CSharp\CSharp核心vob\bin\Debug\netcoreapp3.1\CSharp核心vob.runtimeconfig.dev.json
+E:\CSharp\CSharp核心vob\bin\Debug\netcoreapp3.1\CSharp核心vob.dll
+E:\CSharp\CSharp核心vob\bin\Debug\netcoreapp3.1\CSharp核心vob.pdb
+E:\CSharp\CSharp核心vob\obj\Debug\netcoreapp3.1\CSharp核心vob.csprojAssemblyReference.cache
+E:\CSharp\CSharp核心vob\obj\Debug\netcoreapp3.1\CSharp核心vob.AssemblyInfoInputs.cache
+E:\CSharp\CSharp核心vob\obj\Debug\netcoreapp3.1\CSharp核心vob.AssemblyInfo.cs
+E:\CSharp\CSharp核心vob\obj\Debug\netcoreapp3.1\CSharp核心vob.csproj.CoreCompileInputs.cache
+E:\CSharp\CSharp核心vob\obj\Debug\netcoreapp3.1\CSharp核心vob.dll
+E:\CSharp\CSharp核心vob\obj\Debug\netcoreapp3.1\CSharp核心vob.pdb
+E:\CSharp\CSharp核心vob\obj\Debug\netcoreapp3.1\CSharp核心vob.genruntimeconfig.cache

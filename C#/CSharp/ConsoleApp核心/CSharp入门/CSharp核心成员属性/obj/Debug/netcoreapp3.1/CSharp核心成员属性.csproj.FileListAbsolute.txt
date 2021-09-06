@@ -1,0 +1,13 @@
+E:\CSharp\CSharp入门\CSharp核心成员属性\bin\Debug\netcoreapp3.1\CSharp核心成员属性.exe
+E:\CSharp\CSharp入门\CSharp核心成员属性\bin\Debug\netcoreapp3.1\CSharp核心成员属性.deps.json
+E:\CSharp\CSharp入门\CSharp核心成员属性\bin\Debug\netcoreapp3.1\CSharp核心成员属性.runtimeconfig.json
+E:\CSharp\CSharp入门\CSharp核心成员属性\bin\Debug\netcoreapp3.1\CSharp核心成员属性.runtimeconfig.dev.json
+E:\CSharp\CSharp入门\CSharp核心成员属性\bin\Debug\netcoreapp3.1\CSharp核心成员属性.dll
+E:\CSharp\CSharp入门\CSharp核心成员属性\bin\Debug\netcoreapp3.1\CSharp核心成员属性.pdb
+E:\CSharp\CSharp入门\CSharp核心成员属性\obj\Debug\netcoreapp3.1\CSharp核心成员属性.csprojAssemblyReference.cache
+E:\CSharp\CSharp入门\CSharp核心成员属性\obj\Debug\netcoreapp3.1\CSharp核心成员属性.AssemblyInfoInputs.cache
+E:\CSharp\CSharp入门\CSharp核心成员属性\obj\Debug\netcoreapp3.1\CSharp核心成员属性.AssemblyInfo.cs
+E:\CSharp\CSharp入门\CSharp核心成员属性\obj\Debug\netcoreapp3.1\CSharp核心成员属性.csproj.CoreCompileInputs.cache
+E:\CSharp\CSharp入门\CSharp核心成员属性\obj\Debug\netcoreapp3.1\CSharp核心成员属性.dll
+E:\CSharp\CSharp入门\CSharp核心成员属性\obj\Debug\netcoreapp3.1\CSharp核心成员属性.pdb
+E:\CSharp\CSharp入门\CSharp核心成员属性\obj\Debug\netcoreapp3.1\CSharp核心成员属性.genruntimeconfig.cache

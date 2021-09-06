@@ -1,0 +1,12 @@
+E:\CSharp\9_9_4CSharp反射2\bin\Debug\netcoreapp3.1\9_9_4CSharp反射2.exe
+E:\CSharp\9_9_4CSharp反射2\bin\Debug\netcoreapp3.1\9_9_4CSharp反射2.deps.json
+E:\CSharp\9_9_4CSharp反射2\bin\Debug\netcoreapp3.1\9_9_4CSharp反射2.runtimeconfig.json
+E:\CSharp\9_9_4CSharp反射2\bin\Debug\netcoreapp3.1\9_9_4CSharp反射2.runtimeconfig.dev.json
+E:\CSharp\9_9_4CSharp反射2\bin\Debug\netcoreapp3.1\9_9_4CSharp反射2.dll
+E:\CSharp\9_9_4CSharp反射2\bin\Debug\netcoreapp3.1\9_9_4CSharp反射2.pdb
+E:\CSharp\9_9_4CSharp反射2\obj\Debug\netcoreapp3.1\9_9_4CSharp反射2.AssemblyInfoInputs.cache
+E:\CSharp\9_9_4CSharp反射2\obj\Debug\netcoreapp3.1\9_9_4CSharp反射2.AssemblyInfo.cs
+E:\CSharp\9_9_4CSharp反射2\obj\Debug\netcoreapp3.1\9_9_4CSharp反射2.csproj.CoreCompileInputs.cache
+E:\CSharp\9_9_4CSharp反射2\obj\Debug\netcoreapp3.1\9_9_4CSharp反射2.dll
+E:\CSharp\9_9_4CSharp反射2\obj\Debug\netcoreapp3.1\9_9_4CSharp反射2.pdb
+E:\CSharp\9_9_4CSharp反射2\obj\Debug\netcoreapp3.1\9_9_4CSharp反射2.genruntimeconfig.cache

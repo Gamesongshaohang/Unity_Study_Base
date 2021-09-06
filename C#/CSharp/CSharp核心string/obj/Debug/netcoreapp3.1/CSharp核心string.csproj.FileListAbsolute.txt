@@ -1,0 +1,12 @@
+E:\CSharp\CSharp核心string\bin\Debug\netcoreapp3.1\CSharp核心string.exe
+E:\CSharp\CSharp核心string\bin\Debug\netcoreapp3.1\CSharp核心string.deps.json
+E:\CSharp\CSharp核心string\bin\Debug\netcoreapp3.1\CSharp核心string.runtimeconfig.json
+E:\CSharp\CSharp核心string\bin\Debug\netcoreapp3.1\CSharp核心string.runtimeconfig.dev.json
+E:\CSharp\CSharp核心string\bin\Debug\netcoreapp3.1\CSharp核心string.dll
+E:\CSharp\CSharp核心string\bin\Debug\netcoreapp3.1\CSharp核心string.pdb
+E:\CSharp\CSharp核心string\obj\Debug\netcoreapp3.1\CSharp核心string.AssemblyInfoInputs.cache
+E:\CSharp\CSharp核心string\obj\Debug\netcoreapp3.1\CSharp核心string.AssemblyInfo.cs
+E:\CSharp\CSharp核心string\obj\Debug\netcoreapp3.1\CSharp核心string.csproj.CoreCompileInputs.cache
+E:\CSharp\CSharp核心string\obj\Debug\netcoreapp3.1\CSharp核心string.dll
+E:\CSharp\CSharp核心string\obj\Debug\netcoreapp3.1\CSharp核心string.pdb
+E:\CSharp\CSharp核心string\obj\Debug\netcoreapp3.1\CSharp核心string.genruntimeconfig.cache

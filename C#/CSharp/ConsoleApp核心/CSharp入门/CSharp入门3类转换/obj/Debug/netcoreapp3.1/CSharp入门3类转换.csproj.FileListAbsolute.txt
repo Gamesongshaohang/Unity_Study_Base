@@ -1,0 +1,13 @@
+E:\CSharp\CSharp入门\CSharp入门3类转换\bin\Debug\netcoreapp3.1\CSharp入门3类转换.exe
+E:\CSharp\CSharp入门\CSharp入门3类转换\bin\Debug\netcoreapp3.1\CSharp入门3类转换.deps.json
+E:\CSharp\CSharp入门\CSharp入门3类转换\bin\Debug\netcoreapp3.1\CSharp入门3类转换.runtimeconfig.json
+E:\CSharp\CSharp入门\CSharp入门3类转换\bin\Debug\netcoreapp3.1\CSharp入门3类转换.runtimeconfig.dev.json
+E:\CSharp\CSharp入门\CSharp入门3类转换\bin\Debug\netcoreapp3.1\CSharp入门3类转换.dll
+E:\CSharp\CSharp入门\CSharp入门3类转换\bin\Debug\netcoreapp3.1\CSharp入门3类转换.pdb
+E:\CSharp\CSharp入门\CSharp入门3类转换\obj\Debug\netcoreapp3.1\CSharp入门3类转换.csprojAssemblyReference.cache
+E:\CSharp\CSharp入门\CSharp入门3类转换\obj\Debug\netcoreapp3.1\CSharp入门3类转换.AssemblyInfoInputs.cache
+E:\CSharp\CSharp入门\CSharp入门3类转换\obj\Debug\netcoreapp3.1\CSharp入门3类转换.AssemblyInfo.cs
+E:\CSharp\CSharp入门\CSharp入门3类转换\obj\Debug\netcoreapp3.1\CSharp入门3类转换.csproj.CoreCompileInputs.cache
+E:\CSharp\CSharp入门\CSharp入门3类转换\obj\Debug\netcoreapp3.1\CSharp入门3类转换.dll
+E:\CSharp\CSharp入门\CSharp入门3类转换\obj\Debug\netcoreapp3.1\CSharp入门3类转换.pdb
+E:\CSharp\CSharp入门\CSharp入门3类转换\obj\Debug\netcoreapp3.1\CSharp入门3类转换.genruntimeconfig.cache

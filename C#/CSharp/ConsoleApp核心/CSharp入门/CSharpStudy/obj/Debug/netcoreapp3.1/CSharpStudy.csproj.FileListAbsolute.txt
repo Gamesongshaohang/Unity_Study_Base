@@ -1,0 +1,13 @@
+E:\CSharp\CSharp入门\CSharpStudy\bin\Debug\netcoreapp3.1\CSharpStudy.exe
+E:\CSharp\CSharp入门\CSharpStudy\bin\Debug\netcoreapp3.1\CSharpStudy.deps.json
+E:\CSharp\CSharp入门\CSharpStudy\bin\Debug\netcoreapp3.1\CSharpStudy.runtimeconfig.json
+E:\CSharp\CSharp入门\CSharpStudy\bin\Debug\netcoreapp3.1\CSharpStudy.runtimeconfig.dev.json
+E:\CSharp\CSharp入门\CSharpStudy\bin\Debug\netcoreapp3.1\CSharpStudy.dll
+E:\CSharp\CSharp入门\CSharpStudy\bin\Debug\netcoreapp3.1\CSharpStudy.pdb
+E:\CSharp\CSharp入门\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.csprojAssemblyReference.cache
+E:\CSharp\CSharp入门\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.AssemblyInfoInputs.cache
+E:\CSharp\CSharp入门\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.AssemblyInfo.cs
+E:\CSharp\CSharp入门\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.csproj.CoreCompileInputs.cache
+E:\CSharp\CSharp入门\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.dll
+E:\CSharp\CSharp入门\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.pdb
+E:\CSharp\CSharp入门\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.genruntimeconfig.cache

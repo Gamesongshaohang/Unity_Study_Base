@@ -1,0 +1,13 @@
+E:\CSharp\CSharp核心接口\bin\Debug\netcoreapp3.1\CSharp核心接口.exe
+E:\CSharp\CSharp核心接口\bin\Debug\netcoreapp3.1\CSharp核心接口.deps.json
+E:\CSharp\CSharp核心接口\bin\Debug\netcoreapp3.1\CSharp核心接口.runtimeconfig.json
+E:\CSharp\CSharp核心接口\bin\Debug\netcoreapp3.1\CSharp核心接口.runtimeconfig.dev.json
+E:\CSharp\CSharp核心接口\bin\Debug\netcoreapp3.1\CSharp核心接口.dll
+E:\CSharp\CSharp核心接口\bin\Debug\netcoreapp3.1\CSharp核心接口.pdb
+E:\CSharp\CSharp核心接口\obj\Debug\netcoreapp3.1\CSharp核心接口.csprojAssemblyReference.cache
+E:\CSharp\CSharp核心接口\obj\Debug\netcoreapp3.1\CSharp核心接口.AssemblyInfoInputs.cache
+E:\CSharp\CSharp核心接口\obj\Debug\netcoreapp3.1\CSharp核心接口.AssemblyInfo.cs
+E:\CSharp\CSharp核心接口\obj\Debug\netcoreapp3.1\CSharp核心接口.csproj.CoreCompileInputs.cache
+E:\CSharp\CSharp核心接口\obj\Debug\netcoreapp3.1\CSharp核心接口.dll
+E:\CSharp\CSharp核心接口\obj\Debug\netcoreapp3.1\CSharp核心接口.pdb
+E:\CSharp\CSharp核心接口\obj\Debug\netcoreapp3.1\CSharp核心接口.genruntimeconfig.cache

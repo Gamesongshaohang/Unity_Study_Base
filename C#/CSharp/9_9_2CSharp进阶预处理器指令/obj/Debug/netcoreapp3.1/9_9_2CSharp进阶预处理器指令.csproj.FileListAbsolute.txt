@@ -1,0 +1,12 @@
+E:\CSharp\9_9_2CSharp进阶预处理器指令\bin\Debug\netcoreapp3.1\9_9_2CSharp进阶预处理器指令.exe
+E:\CSharp\9_9_2CSharp进阶预处理器指令\bin\Debug\netcoreapp3.1\9_9_2CSharp进阶预处理器指令.deps.json
+E:\CSharp\9_9_2CSharp进阶预处理器指令\bin\Debug\netcoreapp3.1\9_9_2CSharp进阶预处理器指令.runtimeconfig.json
+E:\CSharp\9_9_2CSharp进阶预处理器指令\bin\Debug\netcoreapp3.1\9_9_2CSharp进阶预处理器指令.runtimeconfig.dev.json
+E:\CSharp\9_9_2CSharp进阶预处理器指令\bin\Debug\netcoreapp3.1\9_9_2CSharp进阶预处理器指令.dll
+E:\CSharp\9_9_2CSharp进阶预处理器指令\bin\Debug\netcoreapp3.1\9_9_2CSharp进阶预处理器指令.pdb
+E:\CSharp\9_9_2CSharp进阶预处理器指令\obj\Debug\netcoreapp3.1\9_9_2CSharp进阶预处理器指令.AssemblyInfoInputs.cache
+E:\CSharp\9_9_2CSharp进阶预处理器指令\obj\Debug\netcoreapp3.1\9_9_2CSharp进阶预处理器指令.AssemblyInfo.cs
+E:\CSharp\9_9_2CSharp进阶预处理器指令\obj\Debug\netcoreapp3.1\9_9_2CSharp进阶预处理器指令.csproj.CoreCompileInputs.cache
+E:\CSharp\9_9_2CSharp进阶预处理器指令\obj\Debug\netcoreapp3.1\9_9_2CSharp进阶预处理器指令.dll
+E:\CSharp\9_9_2CSharp进阶预处理器指令\obj\Debug\netcoreapp3.1\9_9_2CSharp进阶预处理器指令.pdb
+E:\CSharp\9_9_2CSharp进阶预处理器指令\obj\Debug\netcoreapp3.1\9_9_2CSharp进阶预处理器指令.genruntimeconfig.cache

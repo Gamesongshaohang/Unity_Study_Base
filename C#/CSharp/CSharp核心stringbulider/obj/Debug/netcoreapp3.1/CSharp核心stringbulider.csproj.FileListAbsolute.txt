@@ -1,0 +1,13 @@
+E:\CSharp\CSharp核心stringbulider\bin\Debug\netcoreapp3.1\CSharp核心stringbulider.exe
+E:\CSharp\CSharp核心stringbulider\bin\Debug\netcoreapp3.1\CSharp核心stringbulider.deps.json
+E:\CSharp\CSharp核心stringbulider\bin\Debug\netcoreapp3.1\CSharp核心stringbulider.runtimeconfig.json
+E:\CSharp\CSharp核心stringbulider\bin\Debug\netcoreapp3.1\CSharp核心stringbulider.runtimeconfig.dev.json
+E:\CSharp\CSharp核心stringbulider\bin\Debug\netcoreapp3.1\CSharp核心stringbulider.dll
+E:\CSharp\CSharp核心stringbulider\bin\Debug\netcoreapp3.1\CSharp核心stringbulider.pdb
+E:\CSharp\CSharp核心stringbulider\obj\Debug\netcoreapp3.1\CSharp核心stringbulider.csprojAssemblyReference.cache
+E:\CSharp\CSharp核心stringbulider\obj\Debug\netcoreapp3.1\CSharp核心stringbulider.AssemblyInfoInputs.cache
+E:\CSharp\CSharp核心stringbulider\obj\Debug\netcoreapp3.1\CSharp核心stringbulider.AssemblyInfo.cs
+E:\CSharp\CSharp核心stringbulider\obj\Debug\netcoreapp3.1\CSharp核心stringbulider.csproj.CoreCompileInputs.cache
+E:\CSharp\CSharp核心stringbulider\obj\Debug\netcoreapp3.1\CSharp核心stringbulider.dll
+E:\CSharp\CSharp核心stringbulider\obj\Debug\netcoreapp3.1\CSharp核心stringbulider.pdb
+E:\CSharp\CSharp核心stringbulider\obj\Debug\netcoreapp3.1\CSharp核心stringbulider.genruntimeconfig.cache

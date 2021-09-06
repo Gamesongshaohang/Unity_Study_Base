@@ -1,0 +1,13 @@
+E:\CSharp\CSharp核心继承1\bin\Debug\netcoreapp3.1\CSharp核心继承1.exe
+E:\CSharp\CSharp核心继承1\bin\Debug\netcoreapp3.1\CSharp核心继承1.deps.json
+E:\CSharp\CSharp核心继承1\bin\Debug\netcoreapp3.1\CSharp核心继承1.runtimeconfig.json
+E:\CSharp\CSharp核心继承1\bin\Debug\netcoreapp3.1\CSharp核心继承1.runtimeconfig.dev.json
+E:\CSharp\CSharp核心继承1\bin\Debug\netcoreapp3.1\CSharp核心继承1.dll
+E:\CSharp\CSharp核心继承1\bin\Debug\netcoreapp3.1\CSharp核心继承1.pdb
+E:\CSharp\CSharp核心继承1\obj\Debug\netcoreapp3.1\CSharp核心继承1.csprojAssemblyReference.cache
+E:\CSharp\CSharp核心继承1\obj\Debug\netcoreapp3.1\CSharp核心继承1.AssemblyInfoInputs.cache
+E:\CSharp\CSharp核心继承1\obj\Debug\netcoreapp3.1\CSharp核心继承1.AssemblyInfo.cs
+E:\CSharp\CSharp核心继承1\obj\Debug\netcoreapp3.1\CSharp核心继承1.csproj.CoreCompileInputs.cache
+E:\CSharp\CSharp核心继承1\obj\Debug\netcoreapp3.1\CSharp核心继承1.dll
+E:\CSharp\CSharp核心继承1\obj\Debug\netcoreapp3.1\CSharp核心继承1.pdb
+E:\CSharp\CSharp核心继承1\obj\Debug\netcoreapp3.1\CSharp核心继承1.genruntimeconfig.cache

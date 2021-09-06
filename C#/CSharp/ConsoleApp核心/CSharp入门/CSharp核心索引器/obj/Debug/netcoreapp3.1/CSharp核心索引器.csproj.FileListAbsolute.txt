@@ -1,0 +1,13 @@
+E:\CSharp\CSharp入门\CSharp核心索引器\bin\Debug\netcoreapp3.1\CSharp核心索引器.exe
+E:\CSharp\CSharp入门\CSharp核心索引器\bin\Debug\netcoreapp3.1\CSharp核心索引器.deps.json
+E:\CSharp\CSharp入门\CSharp核心索引器\bin\Debug\netcoreapp3.1\CSharp核心索引器.runtimeconfig.json
+E:\CSharp\CSharp入门\CSharp核心索引器\bin\Debug\netcoreapp3.1\CSharp核心索引器.runtimeconfig.dev.json
+E:\CSharp\CSharp入门\CSharp核心索引器\bin\Debug\netcoreapp3.1\CSharp核心索引器.dll
+E:\CSharp\CSharp入门\CSharp核心索引器\bin\Debug\netcoreapp3.1\CSharp核心索引器.pdb
+E:\CSharp\CSharp入门\CSharp核心索引器\obj\Debug\netcoreapp3.1\CSharp核心索引器.csprojAssemblyReference.cache
+E:\CSharp\CSharp入门\CSharp核心索引器\obj\Debug\netcoreapp3.1\CSharp核心索引器.AssemblyInfoInputs.cache
+E:\CSharp\CSharp入门\CSharp核心索引器\obj\Debug\netcoreapp3.1\CSharp核心索引器.AssemblyInfo.cs
+E:\CSharp\CSharp入门\CSharp核心索引器\obj\Debug\netcoreapp3.1\CSharp核心索引器.csproj.CoreCompileInputs.cache
+E:\CSharp\CSharp入门\CSharp核心索引器\obj\Debug\netcoreapp3.1\CSharp核心索引器.dll
+E:\CSharp\CSharp入门\CSharp核心索引器\obj\Debug\netcoreapp3.1\CSharp核心索引器.pdb
+E:\CSharp\CSharp入门\CSharp核心索引器\obj\Debug\netcoreapp3.1\CSharp核心索引器.genruntimeconfig.cache

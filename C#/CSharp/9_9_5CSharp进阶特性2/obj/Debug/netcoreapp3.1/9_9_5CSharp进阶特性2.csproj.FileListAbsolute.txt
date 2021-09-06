@@ -1,0 +1,12 @@
+E:\CSharp\9_9_5CSharp进阶特性2\bin\Debug\netcoreapp3.1\9_9_5CSharp进阶特性2.exe
+E:\CSharp\9_9_5CSharp进阶特性2\bin\Debug\netcoreapp3.1\9_9_5CSharp进阶特性2.deps.json
+E:\CSharp\9_9_5CSharp进阶特性2\bin\Debug\netcoreapp3.1\9_9_5CSharp进阶特性2.runtimeconfig.json
+E:\CSharp\9_9_5CSharp进阶特性2\bin\Debug\netcoreapp3.1\9_9_5CSharp进阶特性2.runtimeconfig.dev.json
+E:\CSharp\9_9_5CSharp进阶特性2\bin\Debug\netcoreapp3.1\9_9_5CSharp进阶特性2.dll
+E:\CSharp\9_9_5CSharp进阶特性2\bin\Debug\netcoreapp3.1\9_9_5CSharp进阶特性2.pdb
+E:\CSharp\9_9_5CSharp进阶特性2\obj\Debug\netcoreapp3.1\9_9_5CSharp进阶特性2.AssemblyInfoInputs.cache
+E:\CSharp\9_9_5CSharp进阶特性2\obj\Debug\netcoreapp3.1\9_9_5CSharp进阶特性2.AssemblyInfo.cs
+E:\CSharp\9_9_5CSharp进阶特性2\obj\Debug\netcoreapp3.1\9_9_5CSharp进阶特性2.csproj.CoreCompileInputs.cache
+E:\CSharp\9_9_5CSharp进阶特性2\obj\Debug\netcoreapp3.1\9_9_5CSharp进阶特性2.dll
+E:\CSharp\9_9_5CSharp进阶特性2\obj\Debug\netcoreapp3.1\9_9_5CSharp进阶特性2.pdb
+E:\CSharp\9_9_5CSharp进阶特性2\obj\Debug\netcoreapp3.1\9_9_5CSharp进阶特性2.genruntimeconfig.cache

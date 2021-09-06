@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CSharp入门运算符/1.0.0": {
+        "runtime": {
+          "CSharp入门运算符.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharp入门运算符/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

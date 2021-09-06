@@ -1,0 +1,13 @@
+E:\CSharp\9_9_6CSharp进阶特殊用法\bin\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.exe
+E:\CSharp\9_9_6CSharp进阶特殊用法\bin\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.deps.json
+E:\CSharp\9_9_6CSharp进阶特殊用法\bin\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.runtimeconfig.json
+E:\CSharp\9_9_6CSharp进阶特殊用法\bin\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.runtimeconfig.dev.json
+E:\CSharp\9_9_6CSharp进阶特殊用法\bin\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.dll
+E:\CSharp\9_9_6CSharp进阶特殊用法\bin\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.pdb
+E:\CSharp\9_9_6CSharp进阶特殊用法\obj\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.AssemblyInfoInputs.cache
+E:\CSharp\9_9_6CSharp进阶特殊用法\obj\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.AssemblyInfo.cs
+E:\CSharp\9_9_6CSharp进阶特殊用法\obj\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.csproj.CoreCompileInputs.cache
+E:\CSharp\9_9_6CSharp进阶特殊用法\obj\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.dll
+E:\CSharp\9_9_6CSharp进阶特殊用法\obj\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.pdb
+E:\CSharp\9_9_6CSharp进阶特殊用法\obj\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.genruntimeconfig.cache
+E:\CSharp\9_9_6CSharp进阶特殊用法\obj\Debug\netcoreapp3.1\9_9_6CSharp进阶特殊用法.csprojAssemblyReference.cache

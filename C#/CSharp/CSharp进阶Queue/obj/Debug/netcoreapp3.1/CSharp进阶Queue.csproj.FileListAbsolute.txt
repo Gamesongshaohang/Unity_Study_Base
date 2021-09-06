@@ -1,0 +1,13 @@
+E:\CSharp\CSharp进阶Queue\bin\Debug\netcoreapp3.1\CSharp进阶Queue.exe
+E:\CSharp\CSharp进阶Queue\bin\Debug\netcoreapp3.1\CSharp进阶Queue.deps.json
+E:\CSharp\CSharp进阶Queue\bin\Debug\netcoreapp3.1\CSharp进阶Queue.runtimeconfig.json
+E:\CSharp\CSharp进阶Queue\bin\Debug\netcoreapp3.1\CSharp进阶Queue.runtimeconfig.dev.json
+E:\CSharp\CSharp进阶Queue\bin\Debug\netcoreapp3.1\CSharp进阶Queue.dll
+E:\CSharp\CSharp进阶Queue\bin\Debug\netcoreapp3.1\CSharp进阶Queue.pdb
+E:\CSharp\CSharp进阶Queue\obj\Debug\netcoreapp3.1\CSharp进阶Queue.csprojAssemblyReference.cache
+E:\CSharp\CSharp进阶Queue\obj\Debug\netcoreapp3.1\CSharp进阶Queue.AssemblyInfoInputs.cache
+E:\CSharp\CSharp进阶Queue\obj\Debug\netcoreapp3.1\CSharp进阶Queue.AssemblyInfo.cs
+E:\CSharp\CSharp进阶Queue\obj\Debug\netcoreapp3.1\CSharp进阶Queue.csproj.CoreCompileInputs.cache
+E:\CSharp\CSharp进阶Queue\obj\Debug\netcoreapp3.1\CSharp进阶Queue.dll
+E:\CSharp\CSharp进阶Queue\obj\Debug\netcoreapp3.1\CSharp进阶Queue.pdb
+E:\CSharp\CSharp进阶Queue\obj\Debug\netcoreapp3.1\CSharp进阶Queue.genruntimeconfig.cache

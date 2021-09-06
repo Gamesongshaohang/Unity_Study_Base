@@ -1,0 +1,12 @@
+E:\CSharp\CSharp入门\9CSharp基础3\bin\Debug\netcoreapp3.1\9CSharp基础3.exe
+E:\CSharp\CSharp入门\9CSharp基础3\bin\Debug\netcoreapp3.1\9CSharp基础3.deps.json
+E:\CSharp\CSharp入门\9CSharp基础3\bin\Debug\netcoreapp3.1\9CSharp基础3.runtimeconfig.json
+E:\CSharp\CSharp入门\9CSharp基础3\bin\Debug\netcoreapp3.1\9CSharp基础3.runtimeconfig.dev.json
+E:\CSharp\CSharp入门\9CSharp基础3\bin\Debug\netcoreapp3.1\9CSharp基础3.dll
+E:\CSharp\CSharp入门\9CSharp基础3\bin\Debug\netcoreapp3.1\9CSharp基础3.pdb
+E:\CSharp\CSharp入门\9CSharp基础3\obj\Debug\netcoreapp3.1\9CSharp基础3.AssemblyInfoInputs.cache
+E:\CSharp\CSharp入门\9CSharp基础3\obj\Debug\netcoreapp3.1\9CSharp基础3.AssemblyInfo.cs
+E:\CSharp\CSharp入门\9CSharp基础3\obj\Debug\netcoreapp3.1\9CSharp基础3.csproj.CoreCompileInputs.cache
+E:\CSharp\CSharp入门\9CSharp基础3\obj\Debug\netcoreapp3.1\9CSharp基础3.dll
+E:\CSharp\CSharp入门\9CSharp基础3\obj\Debug\netcoreapp3.1\9CSharp基础3.pdb
+E:\CSharp\CSharp入门\9CSharp基础3\obj\Debug\netcoreapp3.1\9CSharp基础3.genruntimeconfig.cache
