@@ -1,0 +1,73 @@
+
+1：
+local t = {} 内存：56字节
+local t = {1} 内存：72字节
+local t = {a = 1} 内存：88字节
+local t = {{1}} 内存：144字节
+local t = {{a = 1}} 内存：160字节
+
+结论：数组结构优先，尽量避免table 里面存储多个table, 避免lua table 频繁创建
+例如：
+local t {
+	{x = 1,y,=2},
+	{x = 1,y,=2},
+	{x = 1,y,=2},
+	{x = 1,y,=2},
+	{x = 1,y,=2},
+
+}
+
+以下代码内存要更小
+local t = {
+x = {1,1,1,1,1},
+y = {2,2,2,2,2},
+}
+
+2:lua table 结构包含数组部分和hash部分
+如果能够确认table 的长度，则可以在创建table 的时候初始化例如：local t = {true,true,true}
+当需要创建非常多的小 size 的表时，应预先填充好表的大小
+for i = 1,1000000 do
+    local t = {}
+    t[1] = 1
+    t[2] = 2
+    t[3] = 3	
+end
+
+以下代码相对执行效率更高
+for i = 1,1000000 do
+    local t = {true,true,true}
+    t[1] = 1
+    t[2] = 2
+    t[3] = 3	
+end
+
+3:table 重用
+local t = {}
+for i = 1997,2000 do
+	t[i] = os.time({year = i,month = 1,day = 1})
+end
+
+以下代码相对执行效率更高
+local t = {}
+local dateTable = {year = nil,month = 1,day = 1}
+for i = 1997,2000 do
+	dateTable.year = i
+	t[i] = os.time(dateTable)
+end
+
+4：涉及到vector2,3，Quaternion 的计算全部采用x,y,z 来进行参数传递或者计算
+5：字符串
+local s = '' 
+for i = 1,300000 do 
+    s = s .. 'a' 
+end
+--2.93s
+
+以下代码相对执行效率更高
+local s = '' 
+local t = {}
+for i = 1,300000 do 
+    t[#t + 1] = 'a'
+end
+s = table.concat( t, '')
+--0.0478s
