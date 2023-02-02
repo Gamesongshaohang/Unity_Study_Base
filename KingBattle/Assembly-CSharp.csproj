@@ -76,6 +76,7 @@
     <Compile Include="Assets\_VIP\TotalProject\Scripts\MyPlacebleMgr.cs" />
     <Compile Include="Assets\_VIP\TotalProject\Scripts\MyPlacebleView.cs" />
     <Compile Include="Assets\_VIP\TotalProject\Scripts\Myprojectile.cs" />
+    <Compile Include="Assets\_VIP\TotalProject\Scripts\MyprojectileMgr.cs" />
     <Compile Include="Assets\_VIP\TotalProject\Scripts\MyUnitAI.cs" />
     <Compile Include="Assets\91make\DataGen\ConfigScript\MyCardModel.cs" />
     <Compile Include="Assets\91make\DataGen\ConfigScript\MyPlaceableModel.cs" />

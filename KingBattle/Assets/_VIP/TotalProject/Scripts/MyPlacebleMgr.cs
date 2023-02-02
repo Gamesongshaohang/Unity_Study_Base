@@ -24,8 +24,6 @@ public class MyPlacebleMgr : MonoBehaviour
     public List<MyPlacebleView> mine = new List<MyPlacebleView>(); //所有己方单位的View脚本
     public List<MyPlacebleView> his = new List<MyPlacebleView>();//所有敌方单位的View脚本
 
-    public List<Myprojectile> myprojectiles = new List<Myprojectile>();//所有己方单位的投掷物脚本
-    public List<Myprojectile> hisprojectiles = new List<Myprojectile>();//所有敌方单位的投掷物脚本
 
     public Transform trHisTower,trMyTower;//敌人防御塔的位置
 
@@ -49,58 +47,10 @@ public class MyPlacebleMgr : MonoBehaviour
         UpdatePlaceble(mine);
         UpdatePlaceble(his);
 
-        //投掷物逻辑
-        UpdateProjectiles(myprojectiles);
-        UpdateProjectiles(hisprojectiles);
 
     }
 
-    //投掷物逻辑
-    public void UpdateProjectiles(List<Myprojectile> projectiles)
-    {
-        List<Myprojectile> desList = new List<Myprojectile>();
-        for (int i = 0; i < projectiles.Count; i++)
-        {
-           
-            var proj = myprojectiles[i];
-            proj.porgress += Time.deltaTime * proj.speed;
-
-            MyUnitAI casterAI = proj.caster as MyUnitAI;
-            MyAIBase targetAI = proj.target;
-            //设置投掷物的位置
-
-            if (targetAI == null)
-            {
-                Destroy(proj.gameObject);
-                desList.Add(proj);
-                continue;
-            }
-             proj.transform.position = Vector3.Lerp(proj.caster.transform.position, proj.target.transform.position + Vector3.up, proj.porgress);
     
-
-            //投掷物飞行结束
-            if (proj.porgress >= 1f)
-            {
-                casterAI.OnDealDamage();//投掷物的持有者对被攻击者进行伤害判定
-                if (targetAI == null) return;
-                if (targetAI.GetComponent<MyPlacebleView>().data.hitPoints <= 0) //目标死亡
-                {
-                    if (targetAI.state != AIState.Die)
-                    {
-                        targetAI.state = AIState.Die;
-                        targetAI.GetComponent<Animator>().SetTrigger("IsDead");
-                    }
-                }
-                Destroy(proj.gameObject);
-                desList.Add(proj);
-            }
-        }
-
-        foreach (var item in desList)
-        {
-            myprojectiles.Remove(item);
-        }
-    }
 
     //游戏单位AI逻辑
     public void UpdatePlaceble(List<MyPlacebleView> pViews)
@@ -139,13 +89,14 @@ public class MyPlacebleMgr : MonoBehaviour
                     break;
                 case AIState.Seek:
                     {
-                        //查找场景内最近的敌人
-                        ai.target = FindNearstenemy(transform.position, data.faction);
+                       //出现同个目标多个游戏单位共同攻击的情况，会出现目标被其他游戏单位击杀的情况
                         if (ai.target == null)
                         {
                             ai.state = AIState.Idle;
                             break;
                         }
+                        //查找场景内最近的敌人
+                        //ai.target = FindNearstenemy(transform.position, data.faction);
                         nav.enabled = true;
                         //向敌人方向前进
                         nav.destination = ai.target.transform.position;
@@ -165,6 +116,12 @@ public class MyPlacebleMgr : MonoBehaviour
                     break;
                 case AIState.Attack:
                     {
+                        //出现同个目标多个游戏单位共同攻击的情况，会出现目标被其他游戏单位击杀的情况
+                        if (ai.target == null)
+                        {
+                            ai.state = AIState.Idle;
+                            break;
+                        }
                         //判定是否进入攻击范围
                         if (IsInAttackRanage(view.transform.position, ai.target.transform.position, data.attackRange) == false)
                         {
@@ -172,16 +129,17 @@ public class MyPlacebleMgr : MonoBehaviour
                             break;
                         }
                         //攻击间隔
-                        if (Time.time > ai.lastBlowTime + data.attackRatio)
-                        {
-                            //攻击敌人
-                            animator.SetTrigger("Attack");
-                            nav.enabled = false;
-                            ai.lastBlowTime = Time.time;
-                            ai.transform.LookAt(ai.target.transform);
+                        if (Time.time < ai.lastBlowTime + data.attackRatio)
+                        {                 
                             break;
                         }
-                   
+                        //攻击敌人
+                        animator.SetBool("IsMoving", false);
+                        animator.SetTrigger("Attack");
+                        nav.enabled = false;
+                        ai.lastBlowTime = Time.time;
+                        ai.transform.LookAt(ai.target.transform);
+
                         var myPlacebleView = ai.target.GetComponent<MyPlacebleView>();
                         if (myPlacebleView.data.hitPoints <= 0)
                         {

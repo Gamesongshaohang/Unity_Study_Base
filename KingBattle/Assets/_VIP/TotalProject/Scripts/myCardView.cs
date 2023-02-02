@@ -106,7 +106,7 @@ public class myCardView : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
             //实例化小兵
 
             Vector3 offset = cardData.relativeOffsets[i];
-            GameObject unitPrefab = Resources.Load<GameObject>(p.associatedPrefab);
+            GameObject unitPrefab = Resources.Load<GameObject>(faction == Placeable.Faction.Player ? p.associatedPrefab : p.alternatePrefab);
             GameObject unit = GameObject.Instantiate(unitPrefab, parent, false);
             //unit.transform.localPosition = offset;
             unit.transform.position = pos + offset;

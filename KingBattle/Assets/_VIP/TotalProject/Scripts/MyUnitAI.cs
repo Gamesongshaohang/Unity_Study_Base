@@ -27,10 +27,14 @@ public class MyUnitAI : MyAIBase
     //投掷物逻辑出来
     public void OnFireProjectile() {
 
-        GameObject gameObject =  Instantiate(projectilePerfab, firePos.position, Quaternion.identity);
+        GameObject gameObject =  Instantiate(projectilePerfab, 
+            firePos.position,
+            Quaternion.identity,
+            MyprojectileMgr.instance.transform
+            );
         gameObject.GetComponent<Myprojectile>().caster = this;
         gameObject.GetComponent<Myprojectile>().target = this.target;
         //投掷物在PlacbleMgr统一管理
-        MyPlacebleMgr.instance.myprojectiles.Add(gameObject.GetComponent<Myprojectile>());
+        MyprojectileMgr.instance.myprojectiles.Add(gameObject.GetComponent<Myprojectile>());
     }
 }
