@@ -143,18 +143,9 @@ public class MyPlacebleMgr : MonoBehaviour
                         var myPlacebleView = ai.target.GetComponent<MyPlacebleView>();
                         if (myPlacebleView.data.hitPoints <= 0)
                         {
-                            myPlacebleView.data.hitPoints = 0;
-                            if (ai.target.GetComponent<Animator>())
-                            {
-                                ai.target.GetComponent<Animator>().SetTrigger("IsDead");
-                            }
-                            //目标死亡，停止攻击，
-                            print(ai.target.gameObject.name + "死亡了");
-                            ai.target.GetComponent<MyAIBase>().state = AIState.Die;
+                            OnEnterDie(ai.target);
                             ai.target = null;
                             ai.state = AIState.Idle;
-                    
-
                         }
                     }
                     break;
@@ -162,11 +153,55 @@ public class MyPlacebleMgr : MonoBehaviour
                     {
                         if (ai is MyBuildingAI)
                             break;
-                        nav.enabled = false;
+               
+                        var rds = ai.GetComponentsInChildren<Renderer>();
+                        view.dieProgress += Time.deltaTime * (1/view.dieDuration);
+                        foreach (var rd in rds)
+                        {
+                            rd.material.SetFloat("_DissolveFactor", view.dieProgress);
+                        }
                     }
                     break;
             }
         }
+    }
+
+    //角色死亡
+    public  void OnEnterDie(MyAIBase target)
+    {
+        var myPlacebleView = target.GetComponent<MyPlacebleView>();
+        print(target.gameObject.name + "死亡了");
+        if (target.state == AIState.Die) //防止重复进入死亡状态
+            return;
+        var nav = target.GetComponent<NavMeshAgent>();
+        if (nav)
+            nav.enabled = false;
+
+      
+        target.GetComponent<MyAIBase>().state = AIState.Die;
+        myPlacebleView.data.hitPoints = 0;
+        if (target.GetComponent<Animator>())
+        {
+            target.GetComponent<Animator>().SetTrigger("IsDead");
+        }
+
+        //死亡溶解,设置Shader的参数
+        //查找target的所有子节点
+        var rds = target.GetComponentsInChildren<Renderer>();
+        var view = target.GetComponent<MyPlacebleView>();
+        var color = view.data.faction == Placeable.Faction.Player ? Color.red : Color.blue;
+        view.dieProgress = 0;
+        foreach (var rd in rds)
+        {
+         
+            rd.material.SetColor("_EdgeColor", color * 8);
+            rd.material.SetFloat("_EdgeWidth",0.1f);
+            rd.material.SetFloat("_DissolveFactor",0f);
+        }
+
+        //设置延迟溶解
+        Destroy(target.gameObject,view.dieDuration);
+
     }
 
     /// <summary>
