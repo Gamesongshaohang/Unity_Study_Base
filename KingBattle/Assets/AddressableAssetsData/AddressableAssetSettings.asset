@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: 3aa3d09e95be973459cea78acccf1d65
+  m_DefaultGroup: c0a24a5ceecba4908b51823061e9bc06
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -24,9 +24,9 @@ MonoBehaviour:
   m_ShaderBundleNaming: 0
   m_ShaderBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 1664b6053a27a4ac5bbc7846a27f09f1
+    m_Id: 01d5a54ce7c8f4e6fb012b4231c0e6b9
   m_RemoteCatalogLoadPath:
-    m_Id: dba6ad3240f6c432c9ec347abe95130a
+    m_Id: 18d330823692a436dad1d1a4529a9d5e
   m_ContentStateBuildPath: 
   m_overridePlayerVersion: 
   m_GroupAssets:
