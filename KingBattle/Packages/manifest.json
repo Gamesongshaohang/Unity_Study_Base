@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.unity.addressables": "1.17.15",
+    "com.unity.addressables": "1.17.6-preview",
     "com.unity.cinemachine": "2.3.3",
     "com.unity.package-manager-ui": "2.1.2",
     "com.unity.render-pipelines.lightweight": "5.16.1",

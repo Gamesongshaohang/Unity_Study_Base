@@ -54,11 +54,7 @@ public class MyprojectileMgr : MonoBehaviour
                 if (targetAI == null) return;
                 if (targetAI.GetComponent<MyPlacebleView>().data.hitPoints <= 0) //目标死亡
                 {
-                    if (targetAI.state != AIState.Die)
-                    {
-                        targetAI.state = AIState.Die;
-                        targetAI.GetComponent<Animator>().SetTrigger("IsDead");
-                    }
+                    MyPlacebleMgr.instance.OnEnterDie(targetAI);
                 }
                 Destroy(proj.gameObject);
                 desList.Add(proj);

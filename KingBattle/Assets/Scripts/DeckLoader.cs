@@ -16,6 +16,7 @@ namespace UnityRoyale
 
         public void LoadDeck(DeckData deckToLoad)
         {
+
             targetDeck = deckToLoad;
 			// 加载指定标签的资源（标签类似于AB的Label Variant）
 			// 可以用Label加载比如说：只发给AI的牌，只发给玩家的牌，等等

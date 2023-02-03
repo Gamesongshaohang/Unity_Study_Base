@@ -78,10 +78,10 @@
     <Compile Include="Assets\_VIP\TotalProject\Scripts\Myprojectile.cs" />
     <Compile Include="Assets\_VIP\TotalProject\Scripts\MyprojectileMgr.cs" />
     <Compile Include="Assets\_VIP\TotalProject\Scripts\MyUnitAI.cs" />
+    <Compile Include="Assets\_VIP\TotalProject\Scripts\Test.cs" />
     <Compile Include="Assets\91make\DataGen\ConfigScript\MyCardModel.cs" />
     <Compile Include="Assets\91make\DataGen\ConfigScript\MyPlaceableModel.cs" />
     <Compile Include="Assets\91make\DataGen\MyCardComponent.cs" />
-    <Compile Include="Assets\91make\DataGen\Table2Script.cs" />
     <Compile Include="Assets\91make\UI\Scripts\卡牌管理器.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
@@ -736,6 +736,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{53F06606-B231-37ED-54DA-67350B36B6C0}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{3515EA19-14FC-536F-77EB-7DF5DF330269}</Project>
       <Name>NavMeshComponentsEditor</Name>

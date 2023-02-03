@@ -2,8 +2,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.EventSystems;
+using UnityEngine.Profiling;
 using UnityRoyale;
 
 public class myCardView : MonoBehaviour, IDragHandler, IPointerDownHandler, IPointerUpHandler
@@ -23,12 +26,13 @@ public class myCardView : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
     {
         //设置卡牌层级为 最底层
         transform.SetAsLastSibling();
+        CardManager.instance.forbiddenAreaRenderer.enabled = true;
     }
 
     private bool isDragging = false;//是否已卡牌变兵
 
     //鼠标拖曳卡牌逻辑
-    public void OnDrag(PointerEventData eventData)
+    public async void OnDrag(PointerEventData eventData)
     {
         //移动卡牌到鼠标位置
         //屏幕转世界
@@ -53,12 +57,13 @@ public class myCardView : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
                 isDragging = true;
                 //创建实例游戏单位  Placeble：可放置大单位
                 transform.GetComponent<CanvasGroup>().alpha = 0f;
-                CreatePlaceble(data, hit.point, previewHolder, Placeable.Faction.Player);
+                await CreatePlaceble(data, hit.point, previewHolder, Placeable.Faction.Player);
+           
 
             }
             else
             {
-                print("把卡牌变兵");
+                //print("把卡牌变兵");
             }
         }//卡牌触摸的是战场以外的地方
         else
@@ -74,8 +79,9 @@ public class myCardView : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
                 {
                     Destroy(item.gameObject);
                 }
-             
+              
             }
+           
         }
 
     }
@@ -87,7 +93,7 @@ public class myCardView : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
     /// <param name="pos">单位实例化初始位置</param>
     /// <param name="parent">管理单位的父节点</param>
     /// <param name="faction">单位所属阵营</param>
-    public static List<MyPlacebleView> CreatePlaceble(MyCard cardData,Vector3 pos,Transform parent,Placeable.Faction faction )
+    public static async  Task<List<MyPlacebleView>> CreatePlaceble(MyCard cardData,Vector3 pos,Transform parent,Placeable.Faction faction )
     {
         List<MyPlacebleView> listView = new List<MyPlacebleView>();
         //获取该张卡牌单张数据
@@ -106,9 +112,18 @@ public class myCardView : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
             //实例化小兵
 
             Vector3 offset = cardData.relativeOffsets[i];
-            GameObject unitPrefab = Resources.Load<GameObject>(faction == Placeable.Faction.Player ? p.associatedPrefab : p.alternatePrefab);
-            GameObject unit = GameObject.Instantiate(unitPrefab, parent, false);
+
+            /*  GameObject unitPrefab = Resources.Load<GameObject>(faction == Placeable.Faction.Player ? p.associatedPrefab : p.alternatePrefab);
+              GameObject unit = GameObject.Instantiate(unitPrefab, parent, false);*/
             //unit.transform.localPosition = offset;
+
+            //异步的话会造成前一个EndSample还未执行到时就执行了下一个BeginSample,造成begin/end不匹配，这里不要使用这个性能分析方法
+            //Profiler.BeginSample("Create unit by Addressable"); //开启性能分析,参数：自定义字符串标签用于方便查找
+            //使用
+            var prefabName = faction == Placeable.Faction.Player ? p.associatedPrefab : p.alternatePrefab;
+            GameObject unit = await Addressables.InstantiateAsync(prefabName, parent, false).Task;
+            //Profiler.EndSample();
+
             unit.transform.position = pos + offset;
             MyPlaceable p2 = p.Clone(); //克隆一个对象，克隆与对象的区别
             p2.faction = faction; //设置小兵类型
@@ -122,7 +137,7 @@ public class myCardView : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
     }
 
     //鼠标弹起逻辑
-    public void OnPointerUp(PointerEventData eventData)
+    public async void OnPointerUp(PointerEventData eventData)
     {
         //主摄影机发射射线
         Ray ray = mainCam.ScreenPointToRay(eventData.position);
@@ -134,8 +149,8 @@ public class myCardView : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
             //销毁打出去的卡牌
     
             //从预览区区取一张卡牌放到出牌区
-            CardManager.instance.StartCoroutine(CardManager.instance.预览区到出牌区(index, 0.5f));
-            CardManager.instance.StartCoroutine(CardManager.instance.创建卡牌到预览区(1f));
+            await CardManager.instance.预览区到出牌区(index, 0.5f);
+            await CardManager.instance.创建卡牌到预览区(0.5f);
             Destroy(this.gameObject);
         }
         else
@@ -143,6 +158,7 @@ public class myCardView : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
             //卡牌放回出牌区
             transform.DOMove(CardManager.instance.cards[index].position,.2f);
         }
+        CardManager.instance.forbiddenAreaRenderer.enabled = false;
     }
 
     //游戏单位对象从游戏单位放置到游戏单位管理器下

@@ -31,7 +31,7 @@ public partial class MyCardModel
 		list.Add(new MyCard(){
 			id = 20000,
 			name = "Archers",
-			cardPrefab = "CardArchers",
+			cardPrefab = "MyCardArchers",
 			placeablesIndices = new []{10000, 10000, 10000},
 			relativeOffsets = new []{new Vector3(0.87f, 0f, 0.5f), new Vector3(0f, 0f, 0f), new Vector3(-0.87f, 0f, 0.5f)},
 		});
@@ -39,7 +39,7 @@ public partial class MyCardModel
 		list.Add(new MyCard(){
 			id = 20001,
 			name = "Mage",
-			cardPrefab = "CardMage",
+			cardPrefab = "MyCardMage",
 			placeablesIndices = new []{10001},
 			relativeOffsets = new []{new Vector3(0f, 0f, 0f)},
 		});
@@ -47,7 +47,7 @@ public partial class MyCardModel
 		list.Add(new MyCard(){
 			id = 20002,
 			name = "Warrior",
-			cardPrefab = "CardViking",
+			cardPrefab = "MyCardViking",
 			placeablesIndices = new []{10002},
 			relativeOffsets = new []{new Vector3(0f, 0f, 0f)},
 		});
