@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/_VIP/myTest/04\u2014AI/Game.unity"
+- path: Assets/_VIP/TotalProject/Scenes/Start.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

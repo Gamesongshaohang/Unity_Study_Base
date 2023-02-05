@@ -15,7 +15,7 @@
   "repository": {
     "url": "https://github.cds.internal.unity3d.com/unity/Addressables.git",
     "type": "git",
-    "revision": "759f04446f7db36415648149e32d50cbad26334b"
+    "revision": "5b4d3ed6277bc723c027df95bb74a0753abccc85"
   },
   "upmCi": {
     "footprint": "3e552fcb4a069983cb5c680d0334ead2bb9188be"
