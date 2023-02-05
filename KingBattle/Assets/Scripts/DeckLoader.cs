@@ -30,7 +30,7 @@ namespace UnityRoyale
 	        if(OnDeckLoaded != null)
 		        OnDeckLoaded();
 
-	        Destroy(this);
+            Destroy(this);
         }
 
 	}

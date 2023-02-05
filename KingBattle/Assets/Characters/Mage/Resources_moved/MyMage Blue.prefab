@@ -7,15 +7,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1122871589, guid: ddbc89a2e5731354497399c2803d9354, type: 3}
+      propertyPath: m_Name
+      value: MyMage Blue
+      objectReference: {fileID: 0}
     - target: {fileID: -2730063859717177018, guid: ddbc89a2e5731354497399c2803d9354,
         type: 3}
       propertyPath: projectilePerfab
       value: 
-      objectReference: {fileID: 2348266241764958831, guid: 208c852a323ae3d44998f5b371b37ce4,
+      objectReference: {fileID: 0}
+    - target: {fileID: -2730063859717177018, guid: ddbc89a2e5731354497399c2803d9354,
         type: 3}
-    - target: {fileID: 1122871589, guid: ddbc89a2e5731354497399c2803d9354, type: 3}
-      propertyPath: m_Name
-      value: Mage Blue
+      propertyPath: projectilePerfab.m_AssetGUID
+      value: 208c852a323ae3d44998f5b371b37ce4
       objectReference: {fileID: 0}
     - target: {fileID: 1122871592, guid: ddbc89a2e5731354497399c2803d9354, type: 3}
       propertyPath: m_LocalPosition.x
@@ -372,21 +376,6 @@ PrefabInstance:
       propertyPath: m_RootBone
       value: 
       objectReference: {fileID: 8584991784184851166}
-    - target: {fileID: 5745771561536038601, guid: ddbc89a2e5731354497399c2803d9354,
-        type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.4669811
-      objectReference: {fileID: 0}
-    - target: {fileID: 5745771561536038601, guid: ddbc89a2e5731354497399c2803d9354,
-        type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.83550024
-      objectReference: {fileID: 0}
-    - target: {fileID: 5745771561536038601, guid: ddbc89a2e5731354497399c2803d9354,
-        type: 3}
-      propertyPath: InitialModule.startColor.maxColor.b
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2348266243572087884, guid: ddbc89a2e5731354497399c2803d9354,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
@@ -416,6 +405,21 @@ PrefabInstance:
         type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key1.b
       value: 0.7894781
+      objectReference: {fileID: 0}
+    - target: {fileID: 5745771561536038601, guid: ddbc89a2e5731354497399c2803d9354,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.4669811
+      objectReference: {fileID: 0}
+    - target: {fileID: 5745771561536038601, guid: ddbc89a2e5731354497399c2803d9354,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.83550024
+      objectReference: {fileID: 0}
+    - target: {fileID: 5745771561536038601, guid: ddbc89a2e5731354497399c2803d9354,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1107439388053995260, guid: ddbc89a2e5731354497399c2803d9354,
         type: 3}

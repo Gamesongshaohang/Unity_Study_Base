@@ -73,6 +73,7 @@
     <Compile Include="Assets\_VIP\TotalProject\Scripts\MyAIBase.cs" />
     <Compile Include="Assets\_VIP\TotalProject\Scripts\MyBuildingAI.cs" />
     <Compile Include="Assets\_VIP\TotalProject\Scripts\myCardView.cs" />
+    <Compile Include="Assets\_VIP\TotalProject\Scripts\MyDllLoader.cs" />
     <Compile Include="Assets\_VIP\TotalProject\Scripts\MyPlacebleMgr.cs" />
     <Compile Include="Assets\_VIP\TotalProject\Scripts\MyPlacebleView.cs" />
     <Compile Include="Assets\_VIP\TotalProject\Scripts\Myprojectile.cs" />
@@ -755,6 +756,10 @@
     <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
       <Project>{56DDAEB5-4E5C-3794-7D9F-A4162A6DB063}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="HelloDll.csproj">
+      <Project>{9784CBF8-ADAE-357F-CEE8-AC9E2B823021}</Project>
+      <Name>HelloDll</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

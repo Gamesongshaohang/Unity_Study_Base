@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.AI;
 using UnityRoyale;
 
@@ -200,7 +201,7 @@ public class MyPlacebleMgr : MonoBehaviour
         }
 
         //设置延迟溶解
-        Destroy(target.gameObject,view.dieDuration);
+       Destroy(target.gameObject,view.dieDuration);
 
     }
 

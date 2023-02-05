@@ -940,6 +940,10 @@
       <Project>{56DDAEB5-4E5C-3794-7D9F-A4162A6DB063}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="HelloDll.csproj">
+      <Project>{9784CBF8-ADAE-357F-CEE8-AC9E2B823021}</Project>
+      <Name>HelloDll</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

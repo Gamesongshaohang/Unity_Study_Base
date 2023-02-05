@@ -77,7 +77,7 @@ public class myCardView : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
                 //销毁预览用的小兵
                 foreach (Transform item in previewHolder)
                 {
-                    Destroy(item.gameObject);
+                    Addressables.ReleaseInstance(item.gameObject);
                 }
               
             }
@@ -151,7 +151,7 @@ public class myCardView : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
             //从预览区区取一张卡牌放到出牌区
             await CardManager.instance.预览区到出牌区(index, 0.5f);
             await CardManager.instance.创建卡牌到预览区(0.5f);
-            Destroy(this.gameObject);
+            Addressables.ReleaseInstance(this.gameObject);
         }
         else
         {

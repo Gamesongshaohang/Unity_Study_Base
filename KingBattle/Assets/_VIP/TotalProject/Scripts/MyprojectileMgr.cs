@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 public class MyprojectileMgr : MonoBehaviour
 {
@@ -40,7 +41,7 @@ public class MyprojectileMgr : MonoBehaviour
 
             if (targetAI == null)
             {
-                Destroy(proj.gameObject);
+                Addressables.ReleaseInstance(proj.gameObject);
                 desList.Add(proj);
                 continue;
             }
@@ -56,7 +57,7 @@ public class MyprojectileMgr : MonoBehaviour
                 {
                     MyPlacebleMgr.instance.OnEnterDie(targetAI);
                 }
-                Destroy(proj.gameObject);
+                Addressables.ReleaseInstance(proj.gameObject);
                 desList.Add(proj);
             }
         }
