@@ -31,16 +31,21 @@ public class CardManager : MonoBehaviour
         //这里使用了async嵌套，await修饰方法后，那么后面代码不会被阻塞,不加await就是同步的方法
         //为什么外部也使用await呢，因为await修饰后相当于要异步函数执行完return task才会继续执行后面的代码
         //相当于同步了，但是不影响除了除了start方法外的函数或者类的代码执行
-        await 创建卡牌到预览区(0.5f);
-        await 预览区到出牌区(0, 0.5f);
 
-        await 创建卡牌到预览区(0.5f);
-        await 预览区到出牌区(1, 0.5f);
+        UIPage.ShowPageAsync<DeckPage>(async () => {
+            await 创建卡牌到预览区(0.5f);
+            await 预览区到出牌区(0, 0.5f);
 
-        await 创建卡牌到预览区(0.5f);
-        await 预览区到出牌区(2, 0.5f);
+            await 创建卡牌到预览区(0.5f);
+            await 预览区到出牌区(1, 0.5f);
 
-        await 创建卡牌到预览区(0.5f);
+            await 创建卡牌到预览区(0.5f);
+            await 预览区到出牌区(2, 0.5f);
+
+            await 创建卡牌到预览区(0.5f);
+
+        });
+;        
 
 
     }

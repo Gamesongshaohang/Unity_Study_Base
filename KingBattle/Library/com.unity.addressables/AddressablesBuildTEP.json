@@ -1,7 +1,7 @@
 {
-"Date": "2023/2/5 23:17:59",
+"Date": "2023/2/13 10:49:07",
 "UnityVersion": "2019.1.14f1",
 "traceEvents": [
-{"name": "Building Simulate Groups (advanced)", "ph": "X", "dur": 1197741.8, "tid": 1, "ts": 5680, "pid": 1}
+{"name": "Building Simulate Groups (advanced)", "ph": "X", "dur": 1099745.9, "tid": 1, "ts": 6716, "pid": 1}
 ]
 }
